@@ -2,11 +2,13 @@
 {% if oss %}
 <section class="section oss-section">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ oss.title }}
+    <div class="section-title-icon">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+    <div class="section-title-text">{{ oss.title }}</div>
   </h2>
 
   {% if oss.intro %}

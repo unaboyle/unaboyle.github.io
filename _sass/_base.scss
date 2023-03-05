@@ -77,8 +77,9 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 150px;
     margin-bottom: 15px;
+    margin-top: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -96,6 +97,35 @@ p {
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+  .contact-table {
+    .fas,
+    .fab,
+    .far {
+      font-size: 20px;
+      vertical-align: bottom;
+    }
+    table {
+      border: 0;
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    tr {
+      border: 0;
+    }
+    td {
+      border: 0;
+    }
+    .icon-cell {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+    }
+    .text-cell {
+      text-align: left;
     }
   }
   .container-block {
@@ -171,6 +201,18 @@ p {
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
+    height: 30px;
+  }
+  .section-title-icon {
+    margin: auto;
+    position: absolute;
+    top: 33%; 
+  }
+  .section-title-text {
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 40px;
   }
   .section {
     margin-bottom: 60px;
