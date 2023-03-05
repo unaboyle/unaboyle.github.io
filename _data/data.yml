@@ -99,7 +99,7 @@ education:
 projects:
     title: Projects
     intro: >
-      Check out my [GitHub page](https://github.com/unaboyle).
+      Check out my <a href="https://github.com/unaboyle">GitHub page</a>.
       (Sorry if there aren't any public repositories on there yet--I'm working on it!)
     
 # oss:
