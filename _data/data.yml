@@ -69,6 +69,34 @@ career-profile:
       learning, deep learning, and computer vision and I'm interested in working 
       on any application of artificial intelligence or machine learning.
 
+skills:
+    title: Skills
+
+    toolset:
+      - name: Python
+        level: 85%
+
+      - name: MATLAB
+        level: 60%
+
+      - name: R
+        level: 60%
+
+      - name: C/C++
+        level: 50%
+
+      - name: MySQL
+        level: 80%
+
+      - name: Bash
+        level: 60%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: HTML
+        level: 60%
+
 education:
     title: Education
     info:
@@ -82,9 +110,9 @@ education:
         details: # |
 
 # experiences:
-#     title: Portfolio Projects
+#     title: Projects
 #     info: 
-#       - role: Please contact me if you would like to see some of my work on GitHub!
+#       - role: Check out my <a href="https://github.com/unaboyle"><i class="fab fa-github"></i>GitHub profile</a>.
 #         time:
 #         company:
 #         details: |
@@ -92,7 +120,7 @@ education:
 projects:
     title: Projects
     intro: >
-      Check out my <a href="https://github.com/unaboyle">GitHub profile</a>. 
+      Check out my <a href="https://github.com/unaboyle"><i class="fab fa-github"></i><b>GitHub profile</b></a>. 
       <br>
       (Sorry if there aren't any public repositories on there yet--I'm working on it!)
     
@@ -136,28 +164,6 @@ projects:
 #         link: "#"
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills
-
-    toolset:
-      - name: Python
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 # footer: >
 #     Copyright <YOUR NAME>
