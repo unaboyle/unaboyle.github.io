@@ -56,19 +56,22 @@ sidebar:
     #     - item: artificial intelligence
     #       link: 
 
-career-profile:
-    title: About
-    summary: |
-      I'm a data scientist with 3 years of experience working at a 
-      startup called Photo Butler. Before that, I completed several internships 
-      centered around data analysis & modeling in several industries including 
-      nuclear fusion energy, bioinformatics for cancer research, and geophysics 
-      (climate change). I graduated with a B.S. in Applied Mathematics from Yale, 
-      and am currently pursuing a Master's degree at Harvard Extension School. 
-      My background within the field of data science lies primarily in machine 
-      learning, deep learning, and computer vision and I'm interested in working 
-      on any application of artificial intelligence or machine learning.
+# career-profile:
+#     title: About
+#     summary: |
+#       I'm a data scientist with 3 years of experience working at a 
+#       startup called Photo Butler. Before that, I completed several internships 
+#       centered around data analysis & modeling in several industries including 
+#       nuclear fusion energy, bioinformatics for cancer research, and geophysics 
+#       (climate change). I graduated with a B.S. in Applied Mathematics from Yale, 
+#       and am currently pursuing a Master's degree at Harvard Extension School. 
+#       My background within the field of data science lies primarily in machine 
+#       learning, deep learning, and computer vision and I'm interested in working 
+#       on any application of artificial intelligence or machine learning.
 
+career-profile:
+    title: Interests
+    summary: |
       - machine learning
       - deep learning
       - neural networks
