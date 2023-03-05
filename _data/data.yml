@@ -6,7 +6,7 @@ sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     repository-url: "https://github.com/unaboyle/unaboyle.github.io"
     repository-label: "Star unaboyle/unaboyle.github.io on GitHub"
-    education: True # set to True if you want education in sidebar
+    education: False # set to True if you want education in sidebar
 
     # Profile information
     name: Una Boyle
@@ -38,23 +38,23 @@ sidebar:
         - idiom: French
           level: Advanced
 
-    interests:
-      title: Interests
-      info:
-        - item: machine learning
-          link: 
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: machine learning
+    #       link: 
 
-        - item: deep learning
-          link: 
+    #     - item: deep learning
+    #       link: 
 
-        - item: neural networks
-          link: 
+    #     - item: neural networks
+    #       link: 
 
-        - item: computer vision
-          link: 
+    #     - item: computer vision
+    #       link: 
 
-        - item: artificial intelligence
-          link: 
+    #     - item: artificial intelligence
+    #       link: 
 
 career-profile:
     title: About
@@ -69,14 +69,16 @@ career-profile:
       learning, deep learning, and computer vision and I'm interested in working 
       on any application of artificial intelligence or machine learning.
 
+      - machine learning
+      - deep learning
+      - neural networks
+      - computer vision
+      - artificial intelligence
+
 skills:
     title: Skills
 
     toolset:
-      # add space
-      - name: 
-        level: 
-
       - name: Python
         level: 85%
 
@@ -126,7 +128,7 @@ projects:
     intro: >
       Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>. 
       <br>
-      (Sorry if there aren't any public repositories on there yet--I'm working on it!)
+      (Sorry if there aren't any public repositories on there yet&#8212;I'm working on it!)
     
 # oss:
 #     title: OSS Contributions
