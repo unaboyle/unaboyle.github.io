@@ -41,11 +41,20 @@ sidebar:
     interests:
       title: Interests
       info:
-        - machine learning
-        - deep learning
-        - neural networks
-        - computer vision
-        - artificial intelligence
+        - item: machine learning
+          link: 
+
+        - item: deep learning
+          link: 
+
+        - item: neural networks
+          link: 
+
+        - item: computer vision
+          link: 
+
+        - item: artificial intelligence
+          link: 
 
 career-profile:
     title: About
