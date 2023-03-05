@@ -73,6 +73,10 @@ skills:
     title: Skills
 
     toolset:
+      # add space
+      - name: 
+        level: 
+
       - name: Python
         level: 85%
 
