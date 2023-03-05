@@ -112,7 +112,8 @@ career-profile:
 projects:
     title: Projects
     intro: >
-      Please contact me if you would like to see some of my private projects on GitHub!
+      Check out my [GitHub page](https://github.com/unaboyle).
+      (Sorry if there aren't any public repositories on there yet--I'm working on it!)
     
 # oss:
 #     title: OSS Contributions
@@ -178,4 +179,4 @@ projects:
 #         level: 60%
 
 # footer: >
-#     Copyright Una Boyle
+#     Copyright <YOUR NAME>
