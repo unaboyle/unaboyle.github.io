@@ -121,7 +121,7 @@ education:
 # experiences:
 #     title: Projects
 #     info: 
-#       - role: Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>.
+#       - role: Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>!
 #         time:
 #         company:
 #         details: |
@@ -129,7 +129,7 @@ education:
 projects:
     title: Projects
     intro: >
-      Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>. 
+      Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>!
       <br>
       (Sorry if there aren't any public repositories on there yet&#8212;I'm working on it!)
     
