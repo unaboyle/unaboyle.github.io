@@ -81,10 +81,10 @@ skills:
         level: 85%
 
       - name: MATLAB
-        level: 60%
+        level: 70%
 
       - name: R
-        level: 60%
+        level: 70%
 
       - name: C/C++
         level: 50%
@@ -99,7 +99,7 @@ skills:
         level: 40%
 
       - name: HTML
-        level: 60%
+        level: 70%
 
 education:
     title: Education
@@ -116,7 +116,7 @@ education:
 # experiences:
 #     title: Projects
 #     info: 
-#       - role: Check out my <a href="https://github.com/unaboyle"><i class="fab fa-github"></i>GitHub profile</a>.
+#       - role: Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>.
 #         time:
 #         company:
 #         details: |
@@ -124,7 +124,7 @@ education:
 projects:
     title: Projects
     intro: >
-      Check out my <a href="https://github.com/unaboyle"><i class="fab fa-github"></i><b>GitHub profile</b></a>. 
+      Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>. 
       <br>
       (Sorry if there aren't any public repositories on there yet--I'm working on it!)
     
