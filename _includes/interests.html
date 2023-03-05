@@ -6,7 +6,7 @@
     {{ interests.title }}
   </h2>
 
-  <ul class="list-unstyled interests-list">
+  <!-- <ul class="list-unstyled interests-list">
     {% for interest in interests.info %}
 
       {% if interest.link %}
@@ -16,7 +16,9 @@
       {% endif %}
 
     {% endfor %}
-  </ul>
+  </ul> -->
+
+  {{ interests.info | markdownify }}
 
 </div><!--//interests-->
 {% endif %}

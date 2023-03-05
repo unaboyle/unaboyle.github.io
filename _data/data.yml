@@ -32,51 +32,42 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://drive.google.com/file/d/1H_-3Ghow4ibAp0EZNkHx-TcmEROKIePU/view?usp=sharing
 
-    languages:
-      title: Languages
-      info:
-        - idiom: French
-          level: Advanced
-
-    # interests:
-    #   title: Interests
+    # languages:
+    #   title: Languages
     #   info:
-    #     - item: machine learning
-    #       link: 
+    #     - idiom: French
+    #       level: Advanced
 
-    #     - item: deep learning
-    #       link: 
-
-    #     - item: neural networks
-    #       link: 
-
-    #     - item: computer vision
-    #       link: 
-
-    #     - item: artificial intelligence
-    #       link: 
-
-# career-profile:
-#     title: About
-#     summary: |
-#       I'm a data scientist with 3 years of experience working at a 
-#       startup called Photo Butler. Before that, I completed several internships 
-#       centered around data analysis & modeling in several industries including 
-#       nuclear fusion energy, bioinformatics for cancer research, and geophysics 
-#       (climate change). I graduated with a B.S. in Applied Mathematics from Yale, 
-#       and am currently pursuing a Master's degree at Harvard Extension School. 
-#       My background within the field of data science lies primarily in machine 
-#       learning, deep learning, and computer vision and I'm interested in working 
-#       on any application of artificial intelligence or machine learning.
+    interests:
+      title: Interests
+      info:
+        - machine learning
+        - deep learning
+        - neural networks
+        - computer vision
+        - artificial intelligence
 
 career-profile:
-    title: Interests
+    title: About
     summary: |
-      - machine learning
-      - deep learning
-      - neural networks
-      - computer vision
-      - artificial intelligence
+      I'm a data scientist with 3 years of experience working at a 
+      startup called Photo Butler. Before that, I completed several internships 
+      centered around data analysis & modeling in several industries including 
+      nuclear fusion energy, bioinformatics for cancer research, and geophysics 
+      (climate change). I graduated with a B.S. in Applied Mathematics from Yale, 
+      and am currently pursuing a Master's degree at Harvard Extension School. 
+      My background within the field of data science lies primarily in machine 
+      learning, deep learning, and computer vision and I'm interested in working 
+      on any application of artificial intelligence or machine learning.
+
+# career-profile:
+#     title: Interests
+#     summary: |
+#       - machine learning
+#       - deep learning
+#       - neural networks
+#       - computer vision
+#       - artificial intelligence
 
 skills:
     title: Skills
@@ -106,17 +97,17 @@ skills:
       - name: HTML
         level: 70%
 
-education:
-    title: Education
-    info:
-      - degree: MLA Data Science
-        university: Harvard Extension School
-        time: 2024
-        details: # |
-      - degree: B.S. in Applied Mathematics
-        university: Yale University
-        time: 2019
-        details: # |
+# education:
+#     title: Education
+#     info:
+#       - degree: MLA Data Science
+#         university: Harvard Extension School
+#         time: 2024
+#         details: # |
+#       - degree: B.S. in Applied Mathematics
+#         university: Yale University
+#         time: 2019
+#         details: # |
 
 # experiences:
 #     title: Projects
