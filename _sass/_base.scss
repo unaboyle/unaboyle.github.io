@@ -180,6 +180,10 @@ p {
 
   .interests-list {
     margin-bottom: 0;
+    ul {
+      list-style: inside;
+      padding-left: 0;
+    }
     li {
       margin-bottom: 10px;
       &:last-child {
