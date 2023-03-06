@@ -32,29 +32,29 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://drive.google.com/file/d/1H_-3Ghow4ibAp0EZNkHx-TcmEROKIePU/view?usp=sharing
 
-    # languages:
-    #   title: Languages
-    #   info:
-    #     - idiom: French
-    #       level: Advanced
-
-    interests:
-      title: Interests
+    languages:
+      title: Languages
       info:
-        - item: machine learning
-          link: 
+        - idiom: French
+          level: Advanced
 
-        - item: deep learning
-          link: 
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: machine learning
+    #       link: 
 
-        - item: neural networks
-          link: 
+    #     - item: deep learning
+    #       link: 
 
-        - item: computer vision
-          link: 
+    #     - item: neural networks
+    #       link: 
 
-        - item: artificial intelligence
-          link: 
+    #     - item: computer vision
+    #       link: 
+
+    #     - item: artificial intelligence
+    #       link: 
 
 career-profile:
     title: About
@@ -118,13 +118,14 @@ skills:
 #         time: 2019
 #         details: # |
 
-# experiences:
-#     title: Projects
-#     info: 
-#       - role: Check out my <a href="https://github.com/unaboyle"><b>GitHub profile</b></a>!
-#         time:
-#         company:
-#         details: |
+experiences:
+    title: Projects
+    info: |
+      - machine learning
+      - deep learning
+      - neural networks
+      - computer vision
+      - artificial intelligence
           
 projects:
     title: Projects
