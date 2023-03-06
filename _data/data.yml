@@ -100,11 +100,11 @@ skills:
 education:
     title: Education
     info:
-      - degree: MLA Data Science
+      - degree: MLA in Data Science
         university: Harvard University, Extension School
         time: 2024
         details: # |
-      - degree: B.S. Applied Mathematics
+      - degree: B.S. in Applied Mathematics
         university: Yale University
         time: 2019
         details: # |
