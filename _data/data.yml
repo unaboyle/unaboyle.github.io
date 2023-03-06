@@ -97,17 +97,17 @@ skills:
       - name: HTML
         level: 70%
 
-# education:
-#     title: Education
-#     info:
-#       - degree: MLA Data Science
-#         university: Harvard Extension School
-#         time: 2024
-#         details: # |
-#       - degree: B.S. in Applied Mathematics
-#         university: Yale University
-#         time: 2019
-#         details: # |
+education:
+    title: Education
+    info:
+      - degree: MLA Data Science
+        university: Harvard Extension School
+        time: 2024
+        details: # |
+      - degree: B.S. in Applied Mathematics
+        university: Yale University
+        time: 2019
+        details: # |
 
 experiences:
     title: Interests
