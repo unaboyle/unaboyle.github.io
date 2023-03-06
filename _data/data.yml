@@ -111,12 +111,12 @@ education:
 
 experiences:
     title: Interests
-    info: |
-      - machine learning
-      - deep learning
-      - neural networks
-      - computer vision
-      - artificial intelligence
+    info:
+      - item: machine learning
+      - item: deep learning
+      - item: neural networks
+      - item: computer vision
+      - item: artificial intelligence
           
 projects:
     title: Projects
