@@ -185,6 +185,9 @@ p {
 
   .interests-list {
     margin-bottom: 0;
+    ul {
+      list-style: inside;
+    }
     li {
       margin-bottom: 10px;
       &:last-child {
