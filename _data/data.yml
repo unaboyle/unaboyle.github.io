@@ -17,7 +17,7 @@ sidebar:
     email: ucb@aya.yale.edu
     phone:
     location: Greater Boston, MA
-    timezone: Eastern Standard Time (GMT-5)
+    timezone: # Eastern Standard Time (GMT-5)
     citizenship:
     website: 
     linkedin: unaboyle
