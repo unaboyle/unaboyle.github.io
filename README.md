@@ -10,15 +10,11 @@ Instructions for borrowing this template:
     - `_config.yml`
     - `_data/data.yml`
 7. Modify the following files if you would like to change the general layout:
-    - Primary layout:
+    - Default layout:
         - `index.html`
         - `_layouts/index.html`
         - `_sass/_base.scss`
         - - `_includes/*`
-    - Printing layout:
-        - `print.html`
-        - `_layouts/print.html`
-        - `_sass/_print.scss`
     - Mobile device layout:
         - `_sass/_responsive.scss`
     
