@@ -5,6 +5,7 @@
   }
 
   .sidebar-wrapper {
+    order: 2; // 1=left, 2=right
     position: static;
     width: inherit;
   }
@@ -18,6 +19,7 @@
   }
 
   .main-wrapper .time {
+    order: 1; // 1=left, 2=right
     position: static;
     display: block;
     margin-top: 5px;

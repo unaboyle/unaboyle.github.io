@@ -7,6 +7,18 @@ Instructions for borrowing this template:
 4. Under "Build and deployment," under "Source," select <b>Deploy from a branch</b>.
 5. Under "Branch," select <b>master</b>, and click `Save`.
 6. Modify the following files with your personal info: 
-    - ``_config.yml``
-    - ``_data/data.yml``
-
+    - `_config.yml`
+    - `_data/data.yml`
+7. Modify the following files if you would like to change the general layout:
+    - Primary layout:
+        - `index.html`
+        - `_layouts/index.html`
+        - `_sass/_base.scss`
+        - - `_includes/*`
+    - Printing layout:
+        - `print.html`
+        - `_layouts/print.html`
+        - `_sass/_print.scss`
+    - Mobile device layout:
+        - `_sass/_responsive.scss`
+    

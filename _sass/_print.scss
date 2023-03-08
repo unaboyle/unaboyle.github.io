@@ -13,14 +13,14 @@
     }
     .sidebar-wrapper {
         position: static;
-        order: 1; // 1=left, 2=right
+        order: 2; // 1=left, 2=right
         float: right;
         width: 40%;
         -webkit-print-color-adjust: exact; 
     }
 
     .main-wrapper .time {
-      order: 2; // 1=left, 2=right
+      order: 1; // 1=left, 2=right
       float: right;
       color: black !important;
       -webkit-print-color-adjust: exact; 
