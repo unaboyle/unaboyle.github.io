@@ -9,12 +9,8 @@ Instructions for borrowing this template:
 6. Modify the following files with your personal info: 
     - `_config.yml`
     - `_data/data.yml`
-7. Modify the following files if you would like to change the general layout:
-    - Default layout:
-        - `index.html`
-        - `_layouts/index.html`
-        - `_sass/_base.scss`
-        - - `_includes/*`
-    - Mobile device layout:
-        - `_sass/_responsive.scss`
-    
+7. The following files contain most of the code for the general layout if you wish to change it:
+    - `index.html`
+    - `_layouts/index.html`
+    - `_sass/_base.scss`
+    - `_includes/*`
