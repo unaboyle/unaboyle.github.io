@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "Star on GitHub" button
     repository-url: "https://github.com/unaboyle/unaboyle.github.io"
     repository-label: "Star unaboyle/unaboyle.github.io on GitHub"
     education: True # set to True if you want education in sidebar
@@ -14,12 +14,13 @@ sidebar:
     avatar: profile3.png  # place photo inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+    pronouns: she/her
+    citizenship: US citizen
     email: ucb@aya.yale.edu
     phone:
     location: Greater Boston, MA
     timezone: # Eastern Standard Time (GMT-5)
-    citizenship:
-    website: 
+    website: unaboyle.github.io
     linkedin: unaboyle
     xing: 
     github: unaboyle
@@ -63,7 +64,7 @@ career-profile:
       industry working at a startup called Photo Butler. Before that, I completed 
       several internships centered around data analysis & modeling in several 
       other industries including nuclear fusion energy, bioinformatics for cancer 
-      research, and geophysics (climate change). I graduated with a B.S. in 
+      research, and geophysics (climate change). I graduated with a BS in 
       Applied Mathematics from Yale, and am currently pursuing a Master's degree 
       at Harvard Extension School. My background within the field of data science 
       lies primarily in machine learning, deep learning, and computer vision. 
@@ -101,11 +102,11 @@ skills:
 education:
     title: Education
     info:
-      - degree: ALM (M.A.) in Data Science
+      - degree: ALM (MA) in Data Science
         university: Harvard University, Extension School
         time: 2024
         details: # |
-      - degree: B.S. in Applied Mathematics
+      - degree: BS in Applied Mathematics
         university: Yale University
         time: 2019
         details: # |

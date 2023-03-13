@@ -1,10 +1,19 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list contact-table">
 
-    {% if sidebar.citizenship %}
-    <table class="phone">
+    {% if sidebar.pronouns %}
+    <table class="pronouns">
       <tr>
-        <td class="icon-cell"><i class="fas fa-passport"></i></td>
+        <td class="icon-cell"><i class="fas fa-female"></i></td>
+        <td class="text-cell"> <a href="">{{ sidebar.pronouns }}</a></td>
+      </tr>
+    </table>
+    {% endif %}
+    
+    {% if sidebar.citizenship %}
+    <table class="citizenship">
+      <tr>
+        <td class="icon-cell"><i class="fas fa-globe"></i></td>
         <td class="text-cell"> <a href="">{{ sidebar.citizenship }}</a></td>
       </tr>
     </table>
