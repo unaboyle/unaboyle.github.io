@@ -9,7 +9,7 @@ Instructions for borrowing this template:
 6. Modify the following files with your personal info: 
     - `_config.yml`
     - `_data/data.yml`
-7. The following files contain most of the code for the general layout if you wish to change it:
+7. To change the general layout, you can find most of the relevant code in the following files:
     - `index.html`
     - `_layouts/index.html`
     - `_sass/_base.scss`
