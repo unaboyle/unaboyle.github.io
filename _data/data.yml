@@ -60,8 +60,8 @@ sidebar:
 career-profile:
     title: About
     summary: |
-      Hi! I'm Una, a data scientist with 3 years of experience in the software 
-      industry working at a startup called Photo Butler. Before that, I completed 
+      Hi! I'm Una, a data scientist with 3 years of experience developing 
+      computer vision AI in the software industry. Before that, I completed 
       several internships centered around data analysis & modeling in several 
       other industries including nuclear fusion energy, bioinformatics for cancer 
       research, and geophysics (climate change). I graduated with a BS in 
@@ -69,7 +69,9 @@ career-profile:
       at Harvard Extension School. My background within the field of data science 
       lies primarily in machine learning, deep learning, and computer vision. 
       I'm interested in working on any application of artificial intelligence or 
-      machine learning, but open to other options too.
+      machine learning, but open to other options too. You can find links to my
+      resume and personal projects on GitHub in the sidebar if you would like 
+      me to join your team.
 
 skills:
     title: Skills
