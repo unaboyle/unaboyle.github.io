@@ -130,8 +130,11 @@ p {
     .far {
       font-size: 22px;
     }
-    i:hover {
+    i {
       color: rgba(256, 256, 256, 0.6);
+    }
+    i:hover {
+      color: #fff;
     }
     td {
       padding-left: 6px;

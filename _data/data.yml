@@ -59,7 +59,7 @@ sidebar:
     #       link: 
 
 career-profile:
-    title: About
+    title: About Me
     summary: |
       Hi! I'm Una, a data scientist with 3 years of experience developing 
       computer vision AI and software for the photography industry. 
@@ -78,7 +78,7 @@ career-profile:
       the sidebar if you would like me to join your team!
 
 skills:
-    title: Skills
+    title: Programming Languages
 
     toolset:
       - name: Python
