@@ -15,7 +15,37 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-  </div><!--//profile-container-->
+    <table class="email">
+      <tr>
+
+        {% if sidebar.email %}
+        <td class="icon-cell">
+          <a href="mailto:{{ sidebar.email }}">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </td>
+        {% endif %}
+
+        {% if sidebar.linkedin %}
+        <td class="icon-cell">
+          <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </td>
+        {% endif %}
+
+        {% if sidebar.github %}
+        <td class="icon-cell">
+          <a href="http://github.com/{{ sidebar.github }}" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </td>
+        {% endif %}
+
+      </tr>
+    </table>
+
+  </div>
 
   {% include contact.html %}
 
@@ -30,4 +60,4 @@
     {% include about.html %}
   {% endif %}
 
-</div><!--//sidebar-wrapper-->
+</div>

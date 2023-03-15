@@ -6,7 +6,7 @@
       <tr>
         <td class="icon-cell"><i class="fas fa-female"></i></td>
         <!-- <td class="icon-cell"><i class="fas fa-male"></i></td> -->
-        <td class="text-cell"> <a href="">{{ sidebar.pronouns }}</a></td>
+        <td class="text-cell"> {{ sidebar.pronouns }}</td>
       </tr>
     </table>
     {% endif %}
@@ -15,7 +15,7 @@
     <table class="citizenship">
       <tr>
         <td class="icon-cell"><i class="fas fa-globe"></i></td>
-        <td class="text-cell"> <a href="">{{ sidebar.citizenship }}</a></td>
+        <td class="text-cell"> {{ sidebar.citizenship }}</td>
       </tr>
     </table>
     {% endif %}
@@ -24,7 +24,7 @@
     <table class="location">
       <tr>
         <td class="icon-cell"><i class="fas fa-map-marker"></i></td>
-        <td class="text-cell"> <a href="">{{ sidebar.location }}</a></td>
+        <td class="text-cell"> {{ sidebar.location }}</td>
       </tr>
     </table>
     {% endif %}
@@ -33,19 +33,19 @@
     <table class="timezone">
       <tr>
         <td class="icon-cell"><i class="fas fa-clock"></i></td>
-        <td class="text-cell"> <a href="">{{ sidebar.timezone }}</a></td>
+        <td class="text-cell"> {{ sidebar.timezone }}</td>
       </tr>
     </table>
     {% endif %}
 
-    {% if sidebar.email %}
+    <!-- {% if sidebar.email %}
     <table class="email">
       <tr>
         <td class="icon-cell"><i class="fas fa-envelope"></i></td>
         <td class="text-cell"> <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a></td>
       </tr>
     </table>
-    {% endif %}
+    {% endif %} -->
 
     {% if sidebar.phone %}
     <table class="phone">
@@ -74,14 +74,14 @@
     </table>
     {% endif %}
 
-    {% if sidebar.linkedin %}
+    <!-- {% if sidebar.linkedin %}
     <table class="linkedin">
       <tr>
         <td class="icon-cell"><i class="fab fa-linkedin"></i></td>
         <td class="text-cell"> <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a></td>
       </tr>
     </table>
-    {% endif %}
+    {% endif %} -->
 
     {% if sidebar.xing %}
     <table class="xing">
@@ -92,14 +92,14 @@
     </table>
     {% endif %}
 
-    {% if sidebar.github %}
+    <!-- {% if sidebar.github %}
     <table class="github">
       <tr>
         <td class="icon-cell"><i class="fab fa-github"></i></td>
         <td class="text-cell"> <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a></td>
       </tr>
     </table>
-    {% endif %}
+    {% endif %} -->
 
     {% if sidebar.gitlab %}
     <table class="gitlab">
