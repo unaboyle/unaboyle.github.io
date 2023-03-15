@@ -89,7 +89,8 @@ p {
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
-  .contact-list {
+  .contact-list,
+  .contact-table {
     .fas,
     .fab,
     .far {
@@ -97,11 +98,28 @@ p {
       font-size: 20px;
       vertical-align: middle;
     }
+  }
+  .contact-list {
     li {
       margin-bottom: 15px;
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+  .contact-table {
+    table {
+      border: 0;
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    tr {
+      border: 0;
+    }
+    td {
+      border: 0;
     }
   }
   .contact-links {
