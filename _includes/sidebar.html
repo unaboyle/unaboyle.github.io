@@ -20,7 +20,7 @@
 
         {% if sidebar.email %}
         <td class="email icon-cell">
-          <a href="mailto:{{ sidebar.email }}" aria-label="Email">
+          <a href="mailto:{{ sidebar.email }}" title="Email">
             <i class="fas fa-envelope"></i>
           </a>
         </td>
@@ -28,7 +28,7 @@
 
         {% if sidebar.linkedin %}
         <td class="linkedin icon-cell">
-          <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" aria-label="LinkedIn" target="_blank">
+          <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" title="LinkedIn" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>
         </td>
@@ -36,7 +36,7 @@
 
         {% if sidebar.github %}
         <td class="github icon-cell">
-          <a href="https://github.com/{{ sidebar.github }}" aria-label="GitHub" target="_blank">
+          <a href="https://github.com/{{ sidebar.github }}" title="GitHub" target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </td>
@@ -44,7 +44,7 @@
 
         {% if sidebar.pdf %}
         <td class="pdf icon-cell">
-          <a href="{{ sidebar.pdf }}" aria-label="R&eacute;sum&eacute;" target="_blank">
+          <a href="{{ sidebar.pdf }}" title="R&eacute;sum&eacute;" target="_blank">
             <i class="fas fa-file-pdf"></i>
           </a>
         </td>
