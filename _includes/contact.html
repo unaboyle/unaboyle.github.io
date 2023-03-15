@@ -1,5 +1,5 @@
 <div class="contact-container container-block">
-  <ul class="list-unstyled contact-list contact-table">
+  <ul class="list-unstyled contact-list">
 
     {% if sidebar.pronouns %}
     <table class="pronouns">
@@ -24,7 +24,15 @@
     <table class="location">
       <tr>
         <td class="icon-cell"><i class="fas fa-map-marker"></i></td>
-        <td class="text-cell"> {{ sidebar.location }}</td>
+        <td class="text-cell"> 
+            {% if sidebar.google-map-location %}
+            <a href="https://www.google.com/maps/place/{{ sidebar.google-map-location }}" target="_blank">
+            {{ sidebar.location }}
+            </a>
+            {% else %}
+            {{ sidebar.location }}
+            {% endif %}
+        </td>
       </tr>
     </table>
     {% endif %}
@@ -155,14 +163,14 @@
     </table>
     {% endif %}
 
-    {% if sidebar.pdf %}
+    <!-- {% if sidebar.pdf %}
     <table class="pdf">
       <tr>
         <td class="icon-cell"><i class="fas fa-file-pdf"></i></td>
         <td class="text-cell"> <a href="{{ sidebar.pdf }}" target="_blank">R&eacute;sum&eacute;</a></td>
       </tr>
     </table>
-    {% endif %}
+    {% endif %} -->
 
   </ul>
 </div><!--//contact-container-->

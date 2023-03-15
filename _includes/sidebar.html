@@ -15,29 +15,37 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-    <table class="social-links">
+    <table class="contact-links">
       <tr>
 
         {% if sidebar.email %}
-        <td class="icon-cell">
-          <a href="mailto:{{ sidebar.email }}">
+        <td class="email icon-cell">
+          <a href="mailto:{{ sidebar.email }}" aria-label="Email">
             <i class="fas fa-envelope"></i>
           </a>
         </td>
         {% endif %}
 
         {% if sidebar.linkedin %}
-        <td class="icon-cell">
-          <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">
+        <td class="linkedin icon-cell">
+          <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" aria-label="LinkedIn" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>
         </td>
         {% endif %}
 
         {% if sidebar.github %}
-        <td class="icon-cell">
-          <a href="http://github.com/{{ sidebar.github }}" target="_blank">
+        <td class="github icon-cell">
+          <a href="http://github.com/{{ sidebar.github }}" aria-label="GitHub" target="_blank">
             <i class="fab fa-github"></i>
+          </a>
+        </td>
+        {% endif %}
+
+        {% if sidebar.pdf %}
+        <td class="pdf icon-cell">
+          <a href="{{ sidebar.pdf }}" aria-label="R&eacute;sum&eacute;" target="_blank">
+            <i class="fas fa-file-pdf"></i>
           </a>
         </td>
         {% endif %}
