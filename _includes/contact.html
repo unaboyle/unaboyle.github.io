@@ -25,13 +25,13 @@
       <tr>
         <td class="icon-cell"><i class="fas fa-map-marker"></i></td>
         <td class="text-cell"> 
-            {% if sidebar.google-map-location %}
-            <a href="https://www.google.com/maps?q={{ sidebar.google-map-location }}" target="_blank">
-            {{ sidebar.location }}
-            </a>
-            {% else %}
-            {{ sidebar.location }}
-            {% endif %}
+          {% if sidebar.google-map-location %}
+          <a href="https://www.google.com/maps?q={{ sidebar.google-map-location }}" target="_blank">
+          {{ sidebar.location }}
+          </a>
+          {% else %}
+          {{ sidebar.location }}
+          {% endif %}
         </td>
       </tr>
     </table>
@@ -41,7 +41,15 @@
     <table class="timezone">
       <tr>
         <td class="icon-cell"><i class="fas fa-clock"></i></td>
-        <td class="text-cell"> {{ sidebar.timezone }}</td>
+        <td class="text-cell"> 
+          {% if sidebar.timezone-search %}
+          <a href="https://www.google.com/search?q={{ sidebar.timezone-search }}+time" target="_blank">
+          {{ sidebar.timezone }}
+          </a>
+          {% else %}
+          {{ sidebar.timezone }}
+          {% endif %}
+        </td>
       </tr>
     </table>
     {% endif %}

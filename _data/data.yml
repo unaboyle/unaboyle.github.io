@@ -20,7 +20,8 @@ sidebar:
     phone:
     location: Greater Boston, MA
     google-map-location: greater+boston
-    timezone: # Eastern Standard Time (GMT-5)
+    timezone: Eastern Standard Time (GMT-5)
+    timezone-search: EST
     website:
     linkedin: unaboyle
     xing: 
