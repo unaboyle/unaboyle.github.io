@@ -5,7 +5,7 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "Star on GitHub" button
     repository-url: "https://github.com/unaboyle/unaboyle.github.io"
-    repository-button-label: "Star theme on GitHub"
+    repository-label: "Star theme on GitHub"
     education: True # set to True if you want education in sidebar
 
     # Profile information
