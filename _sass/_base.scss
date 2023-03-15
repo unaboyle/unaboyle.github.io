@@ -124,14 +124,23 @@ p {
     td {
       border: 0;
     }
-    .icon-cell {
-      width: 30px;
-      height: 30px;
-      text-align: center;
+  }
+  .social-links {
+    margin-left: auto;
+    margin-right: auto;
+    .fas,
+    .fab,
+    .far {
+      font-size: 20px;
     }
-    .text-cell {
-      text-align: left;
-    }
+  }
+  .icon-cell {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  .text-cell {
+    text-align: left;
   }
   .container-block {
     padding: 30px;
