@@ -10,12 +10,12 @@ sidebar:
 
     # Profile information
     name: Una Boyle
-    tagline: Data Scientist | AI / ML Engineer
+    tagline: Research Data Scientist
     avatar: profile3.png  # place photo inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    pronouns: she/her
-    citizenship: US citizen
+    pronouns: She/Her
+    citizenship: US Citizen
     email: ucb@aya.yale.edu
     phone:
     location: Greater Boston, MA
@@ -66,15 +66,14 @@ career-profile:
       production-ready computer vision AI and software for the photography 
       industry. 
       Before that, I completed several internships centered around data 
-      analysis & modeling in several other industries including nuclear
-      fusion energy, bioinformatics for cancer research, and geophysics
-      (climate change). 
+      analysis & modeling in various domains of research including nuclear 
+      fusion energy, bioinformatics, and geophysics. 
       I graduated with a BS in Applied Mathematics from Yale, and am 
-      currently pursuing a Master's degree at Harvard Extension School. 
+      currently pursuing a Master's degree in Data Science at Harvard. 
       My background within the field of data science lies primarily in 
       machine learning, deep learning, and computer vision. 
-      I'm generally interested in any AI/ML-centered roles (especially 
-      for research), but open to other options too. 
+      I'm generally interested in any AI/ML-centered roles (especially for 
+      research), but open to other options too.
       You can find links to my r&eacute;sum&eacute; and personal projects 
       on GitHub in the sidebar if you would like to learn more!
 
