@@ -115,7 +115,7 @@ education:
     info:
       - degree: ALM (MA) in Data Science
         university: Harvard University, Extension School
-        time: 2024
+        time: 2025
         details: # |
       - degree: BS in Applied Mathematics
         university: Yale University
@@ -130,6 +130,7 @@ experiences:
       - item: neural networks
       - item: computer vision
       - item: artificial intelligence
+      - item: research
           
 projects:
     title: Projects
