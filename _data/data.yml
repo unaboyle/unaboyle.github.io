@@ -10,7 +10,7 @@ sidebar:
 
     # Profile information
     name: Una Boyle
-    tagline: Data Scientist
+    tagline:
     avatar: profile3.png  # place photo inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
