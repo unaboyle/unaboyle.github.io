@@ -62,21 +62,15 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      Hi! I'm Una, a Research Data Scientist at 
-      <a href="https://www.proto.ai">Proto AI</a>, where I spend my time
-      researching new algorithms, mathematical tools, and applications for 
-      our proprietary AI.
-      Before joining Proto AI, I was a Data Scientist for 3 years at 
-      <a href="https://www.photobutler.com">Photo Butler</a>, where I 
-      created production-ready computer vision AI and software for the 
-      photography industry. 
-      I have also completed several internships centered around data 
-      analysis & modeling in various domains of research including nuclear 
-      fusion energy, bioinformatics, and geophysics. 
-      I graduated with a BS in Applied Mathematics from Yale, and am 
-      currently pursuing a Master's degree in Data Science at Harvard. 
-      You can find links to my r&eacute;sum&eacute; and personal projects 
-      on GitHub in the sidebar if you would like to learn more!
+      I have almost 4 years of experience working as a data scientist in the software industry. 
+      I was a Research Data Scientist for a year at Proto AI, where I spent my time 
+      researching/designing new algorithms, mathematical tools, and applications for their 
+      proprietary AI. Before Proto AI, I was a Data Scientist at Photo Butler for 3 years, where 
+      I created production-ready computer vision AI and software for the photography industry. 
+      I have also completed several internships centered around data analysis & modeling in 
+      various domains of research including nuclear fusion energy, bioinformatics, and geophysics. 
+      I graduated with a BS in Applied Mathematics from Yale, and am currently pursuing a 
+      Master's degree in Data Science at Harvard Extension.
 
 skills:
     title: Programming Languages
